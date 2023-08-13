@@ -1,0 +1,35 @@
+<BFTypedBinder binderType="DoyAngasPiaspis_Adult_M">
+   <types>
+      <entity>
+         <actor>
+            <animal>
+               <Chondrichthyes>
+                  <Carcharhiniformes>
+                     <Carcharhinidae>
+                        <DoyAngasPiaspis>
+                           <DoyAngasPiaspis_Adult>
+                              <DoyAngasPiaspis_Adult_M/>
+                           </DoyAngasPiaspis_Adult>
+                        </DoyAngasPiaspis>
+                     </Carcharhinidae>
+                  </Carcharhiniformes>
+               </Chondrichthyes>
+            </animal>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="entities\units\animals\DoyAngasPiaspis\DoyAngasPiaspis_Adult_F_icon.dds"/>
+         </UIAspect>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="DoyAngasPiaspis_Adult_M"/>
+         </on>
+      </UIToggleButton>
+      <BFAIEntityDataShared b_Male="1"/>
+   </shared>
+</BFTypedBinder>
